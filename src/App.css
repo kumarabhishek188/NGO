@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* Brand color for Basti Ki Pathshala */
+.brand-highlight {
+  color: #2a833c;
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-section {
+  background: linear-gradient(90deg, #caf0e5 20%, #d4fc79 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.about-section {
+  background: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  .hero-section {
+    padding: 2rem 0;
+    min-height: 60vh;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Navbar Link Hover Effect */
+.nav-link {
+  transition: color 0.2s;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-link:hover {
+  color: #2a833c !important; /* Or any other highlight color */
+  font-weight: bold;
+  text-decoration: underline;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hover effect for Gallery and Team Section cards */
+#team .card:hover,
+#gallery .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.scroll-target {
+  scroll-margin-top: 100px; /* adjust based on your navbar height */
 }

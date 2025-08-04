@@ -1,0 +1,14 @@
+{
+  "gallery": { "title": "Our Gallery" },
+  "events": { "title": "Events & Announcements", "ongoing": "Ongoing" },
+  "team": { "title": "Meet Our Team" },
+  "faq": {
+    "title": "FAQ",
+    "q1": "How can I volunteer?",
+    "a1": "Just fill out our volunteer form and we will get in touch soon!",
+    "q2": "How are donations utilized?",
+    "a2": "Every rupee goes directly towards educational resources, workshops, and student support.",
+    "q3": "How can I donate books/materials?",
+    "a3": "Visit our Donate section or contact us through the volunteer form."
+  }
+}

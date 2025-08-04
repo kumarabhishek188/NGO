@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Basti Ki Pathshala
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Basti Ki Pathshala** is a responsive, multilingual NGO website built with React, Bootstrap, and react-i18next. It aims to promote quality education for underprivileged children with volunteer engagement and organizational transparency.
 
-## Available Scripts
+---
+## 🌍 Deployment
 
-In the project directory, you can run:
+The website is deployed and accessible at:  
+**[https://basti-ki-pathshala.example.com](https://basti-ki-pathshala.example.com)**
 
-### `npm start`
+*(Replace the above URL with your actual deployment link once hosted)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive design**: Works on desktop and mobile.
+- **Multiple sections**: Home, Gallery, Events, Team, About Us, FAQ, and Volunteer Form.
+- **Multilingual**: Easily switch between Hindi and English.
+- **Modern UI**: Clean Bootstrap styles with interactive hover effects.
+- **Easy to extend**: Add more events, images, or sections anytime!
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏗️ Folder Structure
 
-### `npm run build`
+basti-ki-pathshala/
+├── public/
+│   └── images/                  # Team/gallery images and placeholders
+├── src/
+│   ├── components/
+│   │   ├── AboutUs.js
+│   │   ├── EventsSection.js
+│   │   ├── FAQSection.js
+│   │   ├── GallerySection.js
+│   │   ├── Home.js
+│   │   ├── Navbar.js
+│   │   ├── TeamSection.js
+│   │   └── VolunteerForm.js
+│   ├── locales/
+│   │   ├── en.json
+│   │   └── hi.json
+│   ├── i18n.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚡ Quick Start:
+Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+npm install
+Start the development server
 
-### `npm run eject`
+bash
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Visit
+http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌏 Languages
+Easily switch between English and हिंदी using the navbar buttons.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+All dynamic text is fully translated via src/locales/en.json and src/locales/hi.json.
 
-## Learn More
+🛠️ Tech Stack:
+React
+React-Bootstrap
+react-i18next
+Bootstrap 5
+react-icons (for avatars and fallback icons)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Customization
+Images: Replace/add your own team or gallery images in public/images/.
+Events/FAQs: Edit section JavaScript files to update content.
+Add more languages: Extend locales/ and update i18n.js.
+Navbar Linking: Adjust section IDs and navbar links for smooth scroll/navigation.

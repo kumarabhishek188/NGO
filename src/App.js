@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import CustomNavbar from './components/Navbar';
+import Home from './components/Home';
+import GallerySection from './components/GallerySection';
+import EventsSection from './components/EventsSection';
+import TeamSection from './components/TeamSection';
+import AboutUs from './components/AboutUs';
+import FAQSection from './components/FAQSection';
+import VolunteerForm from './components/VolunteerForm';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CustomNavbar />
+      <div id="home"><Home /></div>
+      <GallerySection />
+      <EventsSection />
+      <TeamSection />
+      <div id="about"><AboutUs /></div>
+      <FAQSection />
+      <div id="volunteer"><VolunteerForm /></div>
     </div>
   );
 }
