@@ -6,9 +6,8 @@
 ## 🌍 Deployment
 
 The website is deployed and accessible at:  
-**[https://basti-ki-pathshala.example.com](https://basti-ki-pathshala.example.com)**
+**[https://basti-ki-pathshala-abhishek.netlify.app/](https://basti-ki-pathshala-abhishek.netlify.app/)**
 
-*(Replace the above URL with your actual deployment link once hosted)*
 
 ---
 ## 🚀 Features
@@ -22,7 +21,7 @@ The website is deployed and accessible at:
 ---
 
 ## 🏗️ Folder Structure
-
+```
 basti-ki-pathshala/
 ├── public/
 │   └── images/                  # Team/gallery images and placeholders
@@ -44,36 +43,42 @@ basti-ki-pathshala/
 │   ├── App.css
 │   └── index.js
 └── README.md
-
+```
 
 ⚡ Quick Start:
 Install dependencies
-
+```
 bash
 npm install
 Start the development server
+```
 
+```
 bash
 npm start
-
+```
+```
 Visit
 http://localhost:3000
-
-
+```
+```
 🌏 Languages
 Easily switch between English and हिंदी using the navbar buttons.
 
 All dynamic text is fully translated via src/locales/en.json and src/locales/hi.json.
-
+```
+```
 🛠️ Tech Stack:
 React
 React-Bootstrap
 react-i18next
 Bootstrap 5
 react-icons (for avatars and fallback icons)
-
+```
+```
 ✨ Customization
 Images: Replace/add your own team or gallery images in public/images/.
 Events/FAQs: Edit section JavaScript files to update content.
 Add more languages: Extend locales/ and update i18n.js.
 Navbar Linking: Adjust section IDs and navbar links for smooth scroll/navigation.
+```
